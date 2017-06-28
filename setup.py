@@ -8,7 +8,7 @@ os.environ['TRAVIS_CI'] = 'True'
 try:
     from setuptools import setup
 
-    setup_kwargs = {'entry_points': {'console_scripts': ['landsat=cloudsat.cloudsat:__main__']}}
+    setup_kwargs = {'entry_points': {'console_scripts': ['cloudsat=cloudsat.cloudsat:__main__']}}
 except ImportError:
     from distutils.core import setup
 
