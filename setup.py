@@ -30,7 +30,7 @@ setup(name='CloudCRMSat',
       url='https://github.com/dgketchum',
       install_requires=['lxml==3.7.3', 'numpy==1.12.1', 'pandas==0.19.2',
                                                              'python-dateutil==2.6.0', 'pytz==2017.2',
-                                                             'requests==2.13.0', 'six==1.10.0'],
+                                                             'requests==2.20.0', 'six==1.10.0'],
       **setup_kwargs)
 
 # ============= EOF ==============================================================
