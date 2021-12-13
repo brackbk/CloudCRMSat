@@ -28,7 +28,7 @@ setup(name='CloudCRMSat',
       packages=['cloudsat'],
       download_url='https://github.com/{}/{}/archive/{}.tar.gz'.format('brackbk', 'CloudCRMSat', tag),
       url='https://github.com/dgketchum',
-      install_requires=['lxml==3.7.3', 'numpy==1.12.1', 'pandas==0.19.2',
+      install_requires=['lxml==4.6.5', 'numpy==1.12.1', 'pandas==0.19.2',
                                                              'python-dateutil==2.6.0', 'pytz==2017.2',
                                                              'requests==2.13.0', 'six==1.10.0'],
       **setup_kwargs)
